@@ -1,0 +1,51 @@
+header {
+  background-color: #ffffff;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  box-shadow: 0 -5px 5px -5px #bcbfbf inset; }
+  header .container {
+    max-width: 1130px;
+    margin: auto; }
+    header .container.d-flex {
+      justify-content: space-between;
+      display: flex; }
+      header .container.d-flex nav {
+        margin-top: 11px; }
+        header .container.d-flex nav ul {
+          display: flex;
+          list-style: none;
+          text-transform: uppercase;
+          font-weight: bold; }
+          header .container.d-flex nav ul li {
+            margin-left: 24px; }
+            header .container.d-flex nav ul li:hover:before {
+              background-color: #000000;
+              width: 20px; }
+            header .container.d-flex nav ul li:before {
+              content: "";
+              width: 0;
+              display: block;
+              height: 1px;
+              position: relative;
+              top: 10px;
+              right: 19px;
+              transition: 0.5s; }
+            header .container.d-flex nav ul li a {
+              color: #777777;
+              font-size: 14px;
+              padding: 0 10px;
+              text-decoration: none;
+              font-family: 'Roboto-Bold';
+              transition: 0.5s; }
+              header .container.d-flex nav ul li a:hover {
+                color: #000000; }
+          header .container.d-flex nav ul .search {
+            margin-left: 45px; }
+            header .container.d-flex nav ul .search i {
+              font-size: 13px;
+              color: #777777;
+              transition: 0.5s; }
+              header .container.d-flex nav ul .search i:hover {
+                color: #000000; }
+
+/*# sourceMappingURL=header.css.map */
