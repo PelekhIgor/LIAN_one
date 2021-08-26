@@ -1,0 +1,223 @@
+.about_main {
+  background-color: #fafafa;
+  padding: 70px 0; }
+  .about_main .all_column {
+    max-width: 1140px;
+    margin: auto;
+    display: flex; }
+    .about_main .all_column .column_picture {
+      display: block;
+      width: 100%;
+      margin-right: 50px; }
+    .about_main .all_column .column_text {
+      max-width: 560px;
+      margin: auto; }
+      .about_main .all_column .column_text h3 {
+        font-size: 18px;
+        font-family: 'Roboto-Light';
+        text-transform: uppercase;
+        color: black;
+        letter-spacing: 9px;
+        margin-bottom: 35px; }
+      .about_main .all_column .column_text p {
+        font-size: 12px;
+        font-family: 'Roboto-Bold';
+        color: #777777;
+        margin-bottom: 25px;
+        font-weight: lighter;
+        line-height: 22px; }
+    .about_main .all_column .skills .skill_all .skill {
+      color: black;
+      font-size: 16px;
+      font-family: 'Roboto-Bold';
+      margin: 18px 0 12px; }
+      .about_main .all_column .skills .skill_all .skill:first-letter {
+        text-transform: uppercase; }
+  .about_main .team {
+    max-width: 1140px;
+    margin: auto;
+    padding-top: 95px; }
+    .about_main .team .awesome {
+      text-align: center;
+      max-width: 600px;
+      margin: auto; }
+      .about_main .team .awesome h3 {
+        font-size: 30px;
+        font-family: 'Roboto-Light';
+        text-transform: uppercase;
+        color: black;
+        font-weight: lighter;
+        letter-spacing: 12px;
+        padding-bottom: 45px; }
+      .about_main .team .awesome p {
+        font-size: 12px;
+        font-family: 'Roboto-Bold';
+        color: #777777;
+        font-weight: lighter;
+        line-height: 22px;
+        padding-bottom: 70px; }
+    .about_main .team .all_person {
+      display: flex;
+      justify-content: space-between; }
+      .about_main .team .all_person .person {
+        max-width: 358px;
+        margin: auto;
+        background-color: white; }
+        .about_main .team .all_person .person img {
+          width: 100%; }
+        .about_main .team .all_person .person .padding {
+          padding: 35px; }
+        .about_main .team .all_person .person h3 {
+          font-size: 25px;
+          font-family: 'Roboto-Light';
+          text-transform: uppercase;
+          color: black;
+          font-weight: lighter;
+          letter-spacing: 3px;
+          padding-bottom: 13px; }
+        .about_main .team .all_person .person h4 {
+          font-size: 14px;
+          font-family: 'Roboto-Bold';
+          color: #777777;
+          padding-bottom: 25px; }
+        .about_main .team .all_person .person p {
+          font-size: 12px;
+          font-family: 'Roboto-Bold';
+          color: #9c9c9c;
+          font-weight: lighter;
+          line-height: 22px; }
+
+progress {
+  position: relative;
+  background-color: #ebebeb;
+  border: none;
+  height: 10px;
+  width: 550px; }
+
+.photo {
+  position: relative;
+  width: 4px;
+  height: 4px;
+  border: 4px solid #000000;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: inline-block;
+  top: -15px;
+  left: 87%; }
+  .photo:before {
+    content: attr(data-reg);
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    background-color: black;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    bottom: 20px;
+    padding-top: 5px; }
+  .photo:after {
+    content: '';
+    position: absolute;
+    border: 7px solid transparent;
+    border-top: 7px solid #041608;
+    border-left: 7px solid #041608;
+    bottom: 14px; }
+
+.brand {
+  position: relative;
+  width: 4px;
+  height: 4px;
+  border: 4px solid #000000;
+  border-radius: 50%;
+  background-color: #ffffff;
+  top: -12px;
+  left: 92%; }
+  .brand:before {
+    content: attr(data-reg);
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    background-color: black;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    bottom: 20px;
+    padding-top: 5px; }
+  .brand:after {
+    content: '';
+    position: absolute;
+    border: 7px solid transparent;
+    border-top: 7px solid #041608;
+    border-left: 7px solid #041608;
+    bottom: 14px; }
+
+.photography {
+  position: relative;
+  width: 4px;
+  height: 4px;
+  border: 4px solid #000000;
+  border-radius: 50%;
+  background-color: #ffffff;
+  top: -12px;
+  left: 48%; }
+  .photography:before {
+    content: attr(data-reg);
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    background-color: black;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    bottom: 20px;
+    padding-top: 5px; }
+  .photography:after {
+    content: '';
+    position: absolute;
+    border: 7px solid transparent;
+    border-top: 7px solid #041608;
+    border-left: 7px solid #041608;
+    bottom: 14px; }
+
+.web {
+  position: relative;
+  width: 4px;
+  height: 4px;
+  border: 4px solid #000000;
+  border-radius: 50%;
+  background-color: #ffffff;
+  top: -12px;
+  left: 82%; }
+  .web:before {
+    content: attr(data-reg);
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    background-color: black;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    bottom: 20px;
+    padding-top: 5px; }
+  .web:after {
+    content: '';
+    position: absolute;
+    border: 7px solid transparent;
+    border-top: 7px solid #041608;
+    border-left: 7px solid #041608;
+    bottom: 14px; }
+
+progress::-webkit-progress-bar {
+  background-color: #ebebeb; }
+
+progress::-webkit-progress-value {
+  background: #a1a1a1;
+  height: 2px;
+  position: relative;
+  top: 4px;
+  left: 3px; }
+
+progress::-moz-progress-bar {
+  background-color: #ebebeb; }
+
+/*# sourceMappingURL=about_main.css.map */

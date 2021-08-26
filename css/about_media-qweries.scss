@@ -1,0 +1,91 @@
+@media only screen and (max-width: 1024px) {
+  .banner .banner_block .banner_text {
+    left: 20px;
+  }
+  .about_main .all_column {
+    max-width: 1140px;
+    margin: auto;
+    display: block;
+
+  }
+  .about_main .all_column .column_picture{
+
+   max-width: 520px;
+    margin: 0 auto 20px;
+    img{
+      width:100%;
+    }
+  }
+  .about_main .all_column .column_text{
+    max-width: 520px;
+    margin: auto;
+    padding: 0 10px;
+
+
+  }
+  .about_main .team .all_person{
+    flex-wrap: wrap;
+  }
+
+}
+@media only screen and (max-width: 992px) {
+.banner .banner_block .banner_text h3{
+  font-size: 32px;
+  max-width: 420px;
+  margin-bottom: 20px;
+}
+  .banner .banner_block .banner_text h4{
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 767px) {
+
+  .banner .banner_block .banner_text h3{
+    font-size: 20px;
+    max-width: 250px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  .banner .banner_block .banner_text h4{
+    font-size: 8px;
+    letter-spacing: 6px;
+  }
+  progress {
+
+    width: 300px;
+  }
+  .photo{
+    display: none;
+  }
+  .brand{
+    display: none;
+  }
+  .photography{
+    display: none;
+  }
+  .web{
+    display: none;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .banner .banner_block .banner_text h3{
+    font-size: 10px;
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+  .banner .banner_block .banner_text h4{
+    font-size: 5px;
+  }
+  .column_picture {
+
+    max-width: 320px;
+     }
+}
+@media only screen and (max-width: 375px) {
+}
+@media only screen and (max-width: 360px) {
+
+}
+@media only screen and (max-width: 320px) {
+
+}

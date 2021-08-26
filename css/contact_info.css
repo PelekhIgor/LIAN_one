@@ -1,0 +1,102 @@
+.office_info {
+  background-color: #fafafa;
+  padding: 80px 0 80px; }
+  .office_info .container_info {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; }
+    .office_info .container_info .info {
+      margin-right: 35px; }
+      .office_info .container_info .info h3 {
+        font-size: 30px;
+        font-family: 'Roboto-Light';
+        text-transform: uppercase;
+        color: black;
+        letter-spacing: 16px;
+        padding-bottom: 20px; }
+      .office_info .container_info .info .people {
+        font-size: 16px;
+        font-family: 'Roboto-Light';
+        color: #2f302f; }
+        .office_info .container_info .info .people:after {
+          content: url("");
+          display: block;
+          width: 60px;
+          height: 1px;
+          background-color: black;
+          margin: 22px 0 48px; }
+      .office_info .container_info .info p {
+        font-size: 15px;
+        font-family: 'Roboto-Bold';
+        color: black;
+        margin-bottom: 40px; }
+        .office_info .container_info .info p span {
+          color: #777777;
+          font-family: 'Roboto-Light'; }
+      .office_info .container_info .info .number {
+        margin-bottom: 15px; }
+        .office_info .container_info .info .number span {
+          color: #555555;
+          font-family: 'Roboto-Bold'; }
+  .office_info .massage {
+    max-width: 740px; }
+    .office_info .massage .form {
+      display: flex;
+      margin-bottom: 30px; }
+      .office_info .massage .form .name .input_name {
+        width: 320px;
+        height: 38px;
+        border: 1px solid #ececec;
+        background-color: transparent;
+        border-radius: 1px;
+        font-size: 20px;
+        color: black;
+        padding-left: 10px;
+        margin-right: 15px; }
+        .office_info .massage .form .name .input_name::placeholder {
+          font-family: 'Roboto';
+          color: #bebebe;
+          font-size: 15px; }
+      .office_info .massage .form .email .input_mail {
+        width: 320px;
+        height: 38px;
+        border: 1px solid #ececec;
+        background-color: transparent;
+        border-radius: 1px;
+        color: black;
+        padding-left: 10px;
+        margin-left: 15px;
+        font-size: 20px; }
+        .office_info .massage .form .email .input_mail::placeholder {
+          font-family: 'Roboto';
+          color: #bebebe;
+          font-size: 15px; }
+    .office_info .massage .placeholder .textarea {
+      width: 670px;
+      min-height: 145px;
+      margin-bottom: 30px;
+      padding: 10px;
+      border: 1px solid #ececec;
+      background-color: transparent;
+      border-radius: 1px;
+      resize: none;
+      font-size: 20px; }
+      .office_info .massage .placeholder .textarea::placeholder {
+        font-family: 'Roboto';
+        color: #bebebe;
+        font-size: 15px; }
+    .office_info .massage .btn_send {
+      background-color: black;
+      color: white;
+      padding: 14px 50px;
+      font-family: 'Roboto-Bold';
+      font-size: 14px;
+      text-align: center;
+      border: none;
+      cursor: pointer;
+      transition: 0.5s; }
+      .office_info .massage .btn_send:hover {
+        background-color: #626362; }
+
+/*# sourceMappingURL=contact_info.css.map */

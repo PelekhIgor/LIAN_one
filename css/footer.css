@@ -49,4 +49,8 @@ footer {
       footer .general .mulitix span {
         color: #000000; }
 
+@media only screen and (max-width: 767px) {
+  .soc_icon ul {
+    justify-content: space-around !important; } }
+
 /*# sourceMappingURL=footer.css.map */

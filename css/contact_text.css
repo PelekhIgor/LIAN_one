@@ -1,0 +1,52 @@
+.background_values {
+  background-color: #fafafa; }
+  .background_values .our_values {
+    max-width: 1140px;
+    margin: auto;
+    padding-top: 70px; }
+    .background_values .our_values .values_text {
+      text-align: center;
+      max-width: 600px;
+      margin: auto; }
+      .background_values .our_values .values_text h3 {
+        font-size: 30px;
+        font-family: 'Roboto-Light';
+        text-transform: uppercase;
+        color: black;
+        font-weight: lighter;
+        letter-spacing: 12px;
+        padding-bottom: 45px; }
+      .background_values .our_values .values_text p {
+        font-size: 12px;
+        font-family: 'Roboto-Bold';
+        color: #777777;
+        font-weight: lighter;
+        line-height: 22px;
+        padding-bottom: 70px; }
+    .background_values .our_values .all_values {
+      display: flex;
+      justify-content: space-between; }
+      .background_values .our_values .all_values .values {
+        max-width: 353px;
+        margin: auto;
+        background-color: inherit; }
+        .background_values .our_values .all_values .values img {
+          width: 100%; }
+        .background_values .our_values .all_values .values .padding {
+          padding: 25px 0 60px; }
+        .background_values .our_values .all_values .values h3 {
+          font-size: 18px;
+          font-family: 'Roboto-Light';
+          text-transform: uppercase;
+          color: black;
+          font-weight: lighter;
+          letter-spacing: 5px;
+          padding-bottom: 45px; }
+        .background_values .our_values .all_values .values p {
+          font-size: 12px;
+          font-family: 'Roboto-Bold';
+          color: #9c9c9c;
+          font-weight: lighter;
+          line-height: 22px; }
+
+/*# sourceMappingURL=contact_text.css.map */

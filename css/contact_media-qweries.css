@@ -1,0 +1,65 @@
+@media only screen and (max-width: 1024px) {
+  .banner .banner_block .banner_text {
+    left: 20px; }
+
+  .office_info .container_info {
+    flex-wrap: wrap;
+    max-width: 760px;
+    margin: auto;
+    padding: 0 10px; }
+
+  .background_values .our_values .all_values {
+    flex-wrap: wrap; }
+
+  .background_values .our_values {
+    padding: 10px 10px 0; } }
+@media only screen and (max-width: 992px) {
+  .banner .banner_block .banner_text h3 {
+    font-size: 32px;
+    max-width: 420px;
+    margin-bottom: 20px; }
+
+  .banner .banner_block .banner_text h4 {
+    font-size: 15px; }
+
+  .office_info .massage .form {
+    display: block; }
+
+  .office_info .massage .form .email .input_mail {
+    margin: 20px 0 0 0; }
+
+  .office_info .massage .placeholder .textarea {
+    width: 310px; } }
+@media only screen and (max-width: 767px) {
+  .banner .banner_block .banner_text h3 {
+    font-size: 20px;
+    max-width: 250px;
+    margin-bottom: 20px;
+    letter-spacing: 2px; }
+
+  .banner .banner_block .banner_text h4 {
+    font-size: 8px;
+    letter-spacing: 6px; } }
+@media only screen and (max-width: 420px) {
+  .banner .banner_block .banner_text h3 {
+    font-size: 10px;
+    max-width: 150px;
+    margin-bottom: 10px; }
+
+  .banner .banner_block .banner_text h4 {
+    font-size: 5px;
+    letter-spacing: 4px; } }
+@media only screen and (max-width: 375px) {
+  .office_info .massage .placeholder .textarea {
+    width: 250px; }
+
+  .office_info .massage .form .name .input_name {
+    width: 265px; }
+
+  .office_info .massage .form .email .input_mail {
+    width: 265px; }
+
+  .office_info .massage .btn_send {
+    padding: 10px 20px; } }
+
+/*# sourceMappingURL=contact_media-qweries.css.map */
