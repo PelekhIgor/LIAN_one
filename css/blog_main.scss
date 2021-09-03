@@ -1,0 +1,329 @@
+.blog{
+  background-color:#fafafa;
+  .parts{
+    max-width: 1140px;
+    margin: auto;
+    padding: 70px 0 95px;
+    display: flex;
+    justify-content: space-between;
+    .part{
+
+      max-width: 350px;
+
+      &:not(:first-child){
+        margin-left: 30px;
+      }
+
+      .container{
+        padding: 40px 45px;
+        background-color: white;
+        margin-bottom: 30px;
+        h4{
+          text-transform: uppercase;
+          color: white;
+          font-size: 13px;
+          font-family: 'Roboto-Bold';
+          padding: 6px 11px;
+          background-color: black;
+          border-radius: 3px;
+          display: inline-block;
+          margin-bottom: 30px;
+        }
+        h3{
+
+          color: black;
+          font-size: 20px;
+          font-family: 'Roboto-Bold';
+          margin-bottom: 20px;
+        }
+        .user{
+          color: #d6d6d6;
+          font-size: 14px;
+          font-family: 'Roboto-Bold';
+          margin-bottom: 40px;
+        }
+        p{
+          color: #777777;
+          font-size: 15px;
+          font-family: 'Roboto-Light';
+          margin-bottom: 50px;
+          line-height: 17px;
+          font-weight: bold;
+        }
+        .calendar{
+          color: #9a9a9a;
+          font-size: 14px;
+          font-family: 'Roboto-Light';
+          font-weight: bold;
+          display: flex;
+
+        }
+
+          .fa.fa-calendar-o{
+            margin-right: 7px;
+          }
+          .fa-share-alt{
+            margin: 0 15px 0 80px;
+          }
+
+        }
+      .heart a{
+text-decoration: none;
+       i{
+        color: #9a9a9a;
+        text-decoration: none;
+        transition: 0.5s cubic-bezier(0, 0, 1, -0.92);
+        &:hover{
+          transform: translatey(-20%) scale(1.2);
+          color: #4c4949;
+        }
+       }
+      }
+      }
+    }
+  .blog_btn{
+    max-width: 1140px;
+    margin: auto;
+
+    a{
+      text-decoration: none;
+      font-family: 'Roboto-Bold';
+      color: white;
+      text-transform: uppercase;
+      padding: 10px 25px;
+      font-size: 13px;
+      background-color: #959595;
+      border-radius: 3px;
+      display: inline-block;
+      margin-bottom: 100px;
+      margin-left: 300px;
+      transition: 0.5s cubic-bezier(0, 0, 1, -0.92);
+      &:hover{
+        transform: translatey(-20%) scale(1.1);
+      }
+    }
+  }
+    }
+
+.container.image{
+  transition: 0.5s;
+&:hover{
+  background-image:url('../images/blog_3.png');
+  background-size: cover;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  filter: brightness(0.9) ;
+
+
+}
+}
+.posts{
+  .element{
+  position: relative;
+
+  &:after{
+    content: '';
+    position: absolute;
+    border: 7px solid transparent;
+    border-top: 7px solid #ebebeb;
+    left: 170px;
+  }
+  }
+  h3{
+    font-size: 18px;
+    font-family: 'Roboto-Light';
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    background-color: #ebebeb;
+    letter-spacing: 8px;
+
+
+  }
+.post{
+  padding: 25px 25px 29px 25px;
+  background-color: white;
+  a{
+  display: flex;
+    text-decoration: none;
+
+  }
+  img{
+    margin: 0 17px 23px 0;
+  }
+  p{
+    font-size: 16px;
+    font-family: 'Roboto-Light';
+    color: black;
+    margin-bottom: 8px;
+    font-weight: bold;
+    transition: 0.5s;
+    &:hover{
+      color: #777777;
+      font-family: 'Roboto-Bold';
+
+    }
+  }
+  span{
+    font-size: 14px;
+    font-family: 'Roboto-Light';
+    color: #777777;
+
+  }
+}
+}
+
+
+
+.tags {
+  margin-top: 30px;
+  .element {
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      border: 7px solid transparent;
+      border-top: 7px solid #ebebeb;
+      left: 170px;
+    }
+  }
+
+  h3 {
+    font-size: 18px;
+    font-family: 'Roboto-Light';
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    background-color: #ebebeb;
+    letter-spacing: 8px;
+
+
+  }
+  .tag{
+    padding: 30px 20px;
+    background-color: white;
+    flex-wrap: wrap;
+    display: flex;
+    .tag_one{
+      color: #9c9c9c;
+      padding: 10px 10px;
+      border-radius: 3px;
+      border: 1px solid #eeeeee;
+      max-height: 28px;
+      font-family: 'Roboto-Light';
+      font-size: 13px;
+      margin: 0 7px 10px 0;
+      transition: 0.5s;
+      font-weight: bold;
+      &:hover{
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}
+
+.instagram {
+  margin-top: 30px;
+
+  .element {
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      border: 7px solid transparent;
+      border-top: 7px solid #ebebeb;
+      left: 170px;
+    }
+  }
+
+  h3 {
+    font-size: 18px;
+    font-family: 'Roboto-Light';
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    background-color: #ebebeb;
+    letter-spacing: 8px;
+
+
+  }
+  .insta{
+    padding: 30px 15px;
+    background-color: white;
+    flex-wrap: wrap;
+    display: flex;
+    .insta_one{
+      margin: 0 3px;
+      transition: 0.5s;
+      &:hover{
+        filter: brightness(0.7) ;
+
+      }
+    }
+  }
+}
+
+
+.form{
+  padding: 12px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.input-search {
+  width: 350px;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  color: #b7b7b7;
+  font-style: italic;
+
+}
+.btn-search {
+  width: 40px;
+  height: 35px;
+  background-color: #999999;
+  border-radius: 2px;
+  border: none;
+}
+.btn-search .fa-search {
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+
+.video{
+  background-image:url('../images/blog_play.png');
+  max-width: 350px;
+  height: 240px;
+  position: relative;
+  margin: 30px auto;
+
+}
+.video button{
+  background: none;
+  border: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -34px;
+  margin-top: -23.5px
+
+}
+
+.video button i{
+  font-size: 60px;
+  color: #676667;
+  cursor: pointer;
+}
